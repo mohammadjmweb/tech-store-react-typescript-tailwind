@@ -8,10 +8,17 @@ This project demonstrates modern frontend development practices, reusable compon
 
 ## 🌐 Live Demo
 
-🔗 **Vercel:** https://tech-store-react-typescript-tailwin-ten.vercel.app/
+Experience the live version of **Tech Store**:
+
+<p align="center">
+
+<a href="https://tech-store-react-typescript-tailwin-ten.vercel.app/">
+    🚀 Live Demo
+  </a>
+
+</p>
 
 ---
-
 
 ## ✨ Features
 
