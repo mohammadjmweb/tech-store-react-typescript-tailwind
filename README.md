@@ -1,77 +1,151 @@
-# React + TypeScript + Vite
+# 🛒 Tech Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **E-Commerce Web Application** built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project demonstrates modern frontend development practices, reusable component architecture, state management, responsive design, and an intuitive shopping experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+🔗 **Vercel:** https://tech-store-react-typescript-tailwin-ten.vercel.app/
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* 🏠 Modern Home Page
+* 🛍️ Product Categories
+* 🔍 Product Details Page
+* 🛒 Shopping Cart
+* 🌙 Dark / Light Mode
+* 📱 Fully Responsive Design
+* 🔄 Loading Screen
+* ⬆️ Scroll To Top Button
+* 🎯 Product Filtering
+* 🔗 Related Products
+* 🧭 Smooth Navigation
+* ❌ Custom 404 Page
+* ⚡ Fast Performance with Vite
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Technologies Used
 
+* React
+* TypeScript
+* Vite
+* React Router DOM
+* Tailwind CSS
+* Context API
+* Font Awesome
+* React Icons
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+│
+├── components
+│   ├── Navbar
+│   ├── Footer
+│   ├── ProductCard
+│   ├── Loading
+│   └── ScrollToTop
+│
+├── pages
+│   ├── Home
+│   ├── ProductDetails
+│   ├── Cart
+│   └── NotFound
+│
+├── context
+│   ├── CartContext
+│   └── ThemeContext
+│
+├── data
+│   └── products.ts
+│
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository:
 
+```bash
+git clone https://github.com/YourUsername/tech-store.git
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home
+
+<p align="center">
+  <img src="./screenshots/home.png" width="900">
+</p>
+
+### 📦 Product Details
+
+<p align="center">
+  <img src="./screenshots/details.png" width="900">
+</p>
+
+### 🛒 Shopping Cart
+
+<p align="center">
+  <img src="./screenshots/cart.png" width="900">
+</p>
+
+### 🌙 Dark Mode
+
+<p align="center">
+  <img src="./screenshots/dark-mode.png" width="900">
+</p>
+
+---
+
+## 🎯 Future Improvements
+
+* User Authentication
+* Wishlist
+* Product Search
+* Product Sorting
+* Backend Integration
+* Payment Gateway
+* Order History
+* Admin Dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Mohammad Jm**
+
+GitHub: https://github.com/mohammadjmweb
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes and portfolio presentation.
